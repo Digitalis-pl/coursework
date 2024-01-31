@@ -81,6 +81,7 @@ def show_operations(our_last_list):
                 our_to = i[3]
                 our_code = i[4]
                 our_amount = i[5]
+                index = our_from.rfind(" ")
                 print(f"""{date_format(our_date)} {our_description}
-{our_from} -> {our_to[0:5]}**{our_to[21:]}
+{our_from[:index]}{our_from[index:index+3]} {our_from[index+3:index+7]}** **** {our_from[-5:]} -> {our_to[0:5]}**{our_to[21:]}
 {our_code} {our_amount}\n""")
