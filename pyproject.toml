@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pythonProject"
+name = "pythonproject"
 version = "0.1.0"
 description = ""
 authors = ["georg <zhora.karsakov@mail.ru>"]
